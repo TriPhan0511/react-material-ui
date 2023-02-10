@@ -5,12 +5,18 @@ import BoxSample from './material-box/BoxSample'
 import BoxComponent from './material-box/BoxComponent'
 import ColorSample from './material-box/ColorSample'
 import ProgressCircle from './samples/ProgressCircle'
+import CampaignBox from './samples/CampaignBox'
+import StatBox from './samples/StatBox'
+import StatBoxMenard from './samples/StatBoxMenard'
 
 function App() {
 	return (
 		<>
 			<CssBaseLine />
-			<ProgressCircle />
+			<StatBoxMenard />
+			{/* <StatBox /> */}
+			{/* <CampaignBox /> */}
+			{/* <ProgressCircle /> */}
 			{/* <ColorSample /> */}
 			{/* <BoxComponent /> */}
 			{/* <BoxSample /> */}
