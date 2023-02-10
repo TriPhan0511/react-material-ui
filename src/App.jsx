@@ -8,12 +8,14 @@ import ProgressCircle from './samples/ProgressCircle'
 import CampaignBox from './samples/CampaignBox'
 import StatBox from './samples/StatBox'
 import StatBoxMenard from './samples/StatBoxMenard'
+import StatBoxMenardDisplay from './samples/StatBoxMenardDisplay'
 
 function App() {
 	return (
 		<>
 			<CssBaseLine />
-			<StatBoxMenard />
+			<StatBoxMenardDisplay />
+			{/* <StatBoxMenard /> */}
 			{/* <StatBox /> */}
 			{/* <CampaignBox /> */}
 			{/* <ProgressCircle /> */}
